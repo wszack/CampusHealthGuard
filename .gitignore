@@ -1,0 +1,142 @@
+# ------------------------------
+# Java 项目相关
+# ------------------------------
+# 编译文件
+*.class
+*.jar
+*.war
+*.ear
+
+# 构建目录
+target/
+build/
+out/
+bin/
+
+# IDE 配置文件
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# 日志和临时文件
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Maven 相关
+.pom.xml.swp
+.pom.xml.bak
+.pom.xml.orig
+.pom.xml.rej
+
+# ------------------------------
+# 前端项目相关
+# ------------------------------
+# 依赖目录
+node_modules/
+
+# 构建输出目录
+dist/
+build/
+
+# Source map 文件
+*.map
+
+# Webpack 相关
+webpack-stats.json
+
+# Babel 相关
+.babelrc.js.swp
+.babelrc.js.bak
+.babelrc.js.orig
+.babelrc.js.rej
+
+# ESLint 相关
+.eslintcache
+.eslintrc.js.swp
+.eslintrc.js.bak
+.eslintrc.js.orig
+.eslintrc.js.rej
+
+# Prettier 相关
+.prettierrc.js.swp
+.prettierrc.js.bak
+.prettierrc.js.orig
+.prettierrc.js.rej
+
+# ------------------------------
+# IDE 相关
+# ------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+*.vsix
+
+# JetBrains IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+*.launch
+
+# ------------------------------
+# 操作系统生成文件
+# ------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------
+# 环境文件
+# ------------------------------
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# ------------------------------
+# 日志和数据库
+# ------------------------------
+*.log
+*.sql
+*.sqlite
+*.db
+*.dump
+
+# ------------------------------
+# 临时文件和备份文件
+# ------------------------------
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.rej
+
+# ------------------------------
+# 压缩文件
+# ------------------------------
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
